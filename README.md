@@ -39,9 +39,9 @@ pickKey(null); // => null
 
 ## Related
 
+- [pick-keys](https://github.com/bubkoo/pick-keys) - Randomly sampling some keys from an object.
 - [pick-prop](https://github.com/bubkoo/pick-prop) - Randomly sampling a property from an object.
 - [pick-props](https://github.com/bubkoo/pick-props) - Randomly sampling some properties from an object.
-- [pick-keys](https://github.com/bubkoo/pick-keys) - Randomly sampling some keys from an object.
 - [object-at](https://github.com/bubkoo/object-at) - Get object's property according to the path.
 - [object-has](https://github.com/bubkoo/object-has) - Checks if path is a direct property of object.
 - [object-set](https://github.com/bubkoo/object-set) - Sets the value at path of object.
