@@ -10,11 +10,12 @@ describe('pick-key: ', function () {
   it('common', function () {
 
     expect(pickKey()).to.be.undefined;
-    expect(pickKey(null)).to.be.null;
-    expect(pickKey(1)).to.be.equal(1);
-    expect(pickKey('a')).to.be.equal('a');
+    expect(pickKey(null)).to.be.undefined;
+    expect(pickKey(1)).to.be.undefined;
+    expect(pickKey('a')).to.be.undefined;
 
     expect(pickKey([])).to.be.undefined;
+    expect(pickKey({})).to.be.undefined;
 
     expect(pickKey([2])).to.be.equal('0');
     expect(pickKey({ a: 1, b: 1, c: 1 })).to.be.oneOf(['a', 'b', 'c']);

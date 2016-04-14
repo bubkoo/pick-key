@@ -30,11 +30,12 @@ var pickKey = require('pick-key');
 pickKey({ a: 1, b: 1, c: 1 }); // => 'c'
 pickKey([2]);                  // => '0'
 
-pickKey(1);    // => 1
-pickKey('a');  // => 'a'
-pickKey([]);   // => undefined
 pickKey();     // => undefined
-pickKey(null); // => null
+pickKey(null); // => undefined
+pickKey([]);   // => undefined
+pickKey({});   // => undefined
+pickKey(1);    // => undefined
+pickKey('a');  // => undefined
 ```
 
 ## Related

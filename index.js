@@ -8,7 +8,7 @@ var keys     = require('object-keys');
 module.exports = function (object) {
 
   if (!object || !isObject(object)) {
-    return object;
+    return undefined;
   }
 
   var names  = keys(object);
