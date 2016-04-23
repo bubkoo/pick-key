@@ -1,7 +1,6 @@
 # pick-key
 
-> Randomly sampling a key from an object.
-
+> Given an object, pick a random key and return it.
 
 [![MIT License](https://img.shields.io/badge/license-MIT_License-green.svg?style=flat-square)](https://github.com/mock-end/pick-key/blob/master/LICENSE)
 
@@ -9,14 +8,11 @@
 [![coverage:?](https://img.shields.io/coveralls/mock-end/pick-key/master.svg?style=flat-square)](https://coveralls.io/github/mock-end/pick-key)
 
 
-
 ## Install
 
 ```
 $ npm install --save pick-key 
 ```
-
-
 
 ## Usage
 
@@ -40,17 +36,11 @@ pickKey('a');  // => undefined
 
 ## Related
 
-- [pick-keys](https://github.com/mock-end/pick-keys) - Randomly sampling some keys from an object.
-- [pick-prop](https://github.com/mock-end/pick-prop) - Randomly sampling a property from an object.
-- [pick-props](https://github.com/mock-end/pick-props) - Randomly sampling some properties from an object.
-- [object-at](https://github.com/gearcase/object-at) - Get object's property according to the path.
-- [object-has](https://github.com/gearcase/object-has) - Checks if path is a direct property of object.
-- [object-set](https://github.com/gearcase/object-set) - Sets the value at path of object.
-- [object-unset](https://github.com/gearcase/object-unset) - Removes the property at path of object.
-- [to-path](https://github.com/gearcase/to-path) - Converts string to a property path array. 
-
-
-
+- [pick-keys](https://github.com/mock-end/pick-keys) - Given an object, pick some random keys and return them in an array.
+- [pick-prop](https://github.com/mock-end/pick-prop) - Given an object, pick a random property and return it.
+- [pick-props](https://github.com/mock-end/pick-props) - Given an object, pick some random properties and return them in an array.
+- [pick-item](https://github.com/mock-end/pick-item) - Given an array, pick a random element and return it.
+- [pick-items](https://github.com/mock-end/pick-items) - Given an array, pick some random elements and return them in a new array. 
 
 ## Contributing
 

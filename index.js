@@ -1,8 +1,8 @@
 'use strict';
 
+var keys     = require('object-keys');
 var isObject = require('is-object');
 var pickItem = require('pick-item');
-var keys     = require('object-keys');
 
 
 module.exports = function (object) {
