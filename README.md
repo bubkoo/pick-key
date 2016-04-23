@@ -21,7 +21,9 @@ $ npm install --save pick-key
 ```js
 var pickKey = require('pick-key');
 
-// pickKey(object);
+// API
+// - pickKey(object);
+
 
 pickKey({ a: 1, b: 1, c: 1 }); // => 'c'
 pickKey([2]);                  // => '0'
