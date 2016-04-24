@@ -47,6 +47,6 @@
   "dependencies": {
     "is-object": "^1.0.1",
     "object-keys": "^1.0.9",
-    "pick-item": "^1.0.2"
+    "pick-item": "^1.0.3"
   }
 }
