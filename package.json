@@ -1,6 +1,6 @@
 {
   "name": "pick-key",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Given an object, pick a random key and return it.",
   "main": "index.js",
   "scripts": {
@@ -47,6 +47,6 @@
   "dependencies": {
     "is-object": "^1.0.1",
     "object-keys": "^1.0.9",
-    "pick-item": "^1.0.3"
+    "pick-item": "^1.0.4"
   }
 }
